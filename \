@@ -1,0 +1,106 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery.js"></script>
+</head>
+<body>
+<link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Chau+Philomene+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu|Alegreya+SC' rel='stylesheet' type='text/css'>
+<div id="logo"><img src="logo.png" style="width:300px;height:300px;opacity:0.9" /></div>
+<div id="nav">
+<a href="index.html">
+<span class="navitem">
+Home
+</a>
+</span>
+<a href="shows.html">
+<span class="navitem">
+Shows
+</a>
+</span>
+<a href="media.html">
+<span class="navitem">
+Media
+</a>
+</span>
+<a href="members.html">
+<span class="navitem">
+Members
+</a>
+</span>
+<a href="about.html">
+<span class="navitem">
+About
+</a>
+</span>
+<a href="contact.html">
+<span class="navitem">
+Contact
+</a>
+</span>
+</div>
+<div id="content">
+<div id="contentitem">
+<div id="contentheader">Upcoming Shows</div>
+<div id="contenttext">
+<table style="border-collapse:collapse">
+<tr id="showblocklight">
+<td id="showdate">8-30-13</td><td id="showtitle">Freshman Performing Arts Night</td><td id="showlocation">ZELLERBACH THEATER, 3680 WALNUT ST.<br>PHILADELPHIA, PA</td>
+</table>
+</div>
+<br>
+<div id="contentheader">Previous Shows</div>
+<div id="contenttext">
+<table style="border-collapse:collapse">
+<tr id="showblockdark">
+<td id="showdate">8-28-13</td><td id="showtitle">Glee Club Free Show</td><td id="showlocation">IRON GATE THEATRE, 37TH & CHESTNUT<br>PHILADELPHIA, PA</td>
+</tr>
+<tr id="showblocklight">
+<td id="showdate">5-23-13</td><td id="showtitle">Ashland High School</td><td id="showlocation">ASHLAND,OR  </td>
+</tr>
+<tr id="showblockdark">
+<td id="showdate">4-19-13</td><td id="showtitle">College Fest</td><td id="showlocation">COLLEGE GREEN, UNIV. OF PENNSYLVANIA<br>PHILADELPHIA, PA</td>
+</tr>
+<tr id="showblocklight">
+<td id="showdate">4-13-13</td><td id="showtitle">Spring Fling</td><td id="showlocation">LOWER QUAD, UNIV. OF PENNSYLVANIA<br>PHILADELPHIA, PA</td>
+</tr>
+<tr id="showblockdark">
+<td id="showdate">4-13-13</td><td id="showtitle">Sigma Phi Epsilon Spring Fling Event</td><td id="showlocation">40TH & WALNUT<br>PHILADELPHIA, PA</td>
+</tr>
+<tr id="showblocklight">
+<td id="showdate">3-15-13</td><td id="showtitle">Legendary Dobbs</td><td id="showlocation">304 SOUTH ST.<br>PHILADELPHIA, PA</td>
+</tr>
+</tr>
+<tr id="showblockdark">
+<td id="showdate">3-14-13</td><td id="showtitle">Kung Fu Necktie</td><td id="showlocation">1250 N. FRONT ST.<br>PHILADELPHIA, PA</td>
+</tr>
+<tr id="showblocklight">
+<td id="showdate">2-15-13</td><td id="showtitle">Office Bass: A Corporate Musical</td><td id="showlocation">ZELLERBACH THEATER, 3680 WALNUT ST.<br>PHILADELPHIA, PA</td>
+</tr>
+<tr id="showblockdark">
+<tr id="showblocklight">
+<td id="showdate">1-24-13</td><td id="showtitle">Theta Tau Open Recruitment</td><td id="showlocation">38TH & SPRUCE<br>PHILADELPHIA, PA</td>
+</tr>
+<tr id="showblocklight">
+<td id="showdate">12-7-11</td><td id="showtitle">Legendary Dobbs</td><td id="showlocation">304 SOUTH ST.<br>PHILADELPHIA, PA</td>
+</tr>
+</tr>
+<tr id="showblockdark">
+<td id="showdate">11-2-12</td><td id="showtitle">Armageddon Ready</td><td id="showlocation">IRONGATE THEATRE, 37TH & CHESTNUT<br>PHILADELPHIA, PA</td>
+</tr>
+<tr id="showblocklight">
+<td id="showdate">9-7-12</td><td id="showtitle">1920 Commons Reopening</td><td id="showlocation">38TH & CHESTNUT<br>PHILADELPHIA, PA</td>
+</tr>
+<tr id="showblockdark">
+<td id="showdate">9-5-12</td><td id="showtitle">Glee Club Free Show</td><td id="showlocation">HOUSTON HALL, UNIV. OF PENNSYLVANIA<br>PHILADELPHIA, PA</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

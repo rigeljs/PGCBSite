@@ -1,0 +1,231 @@
+html, body {
+    margin: 0;
+    padding: 0
+}
+body
+{
+background-color: #002e5d;
+}
+#logo
+{
+background-image:url('piano.jpg');
+background-position:center;
+background-size:100%;
+}
+#nav 
+{
+position:relative;
+z-index:1;
+float:center;
+background-color:#8d1003;
+height:50px;
+width:100%;
+box-shadow: 10px 10px 20px #000000;
+z-index:1;
+border-top-style:solid;
+border-top-width:2px;
+margin-bottom:auto;
+text-align:justify;
+white-space: nowrap;
+}
+#nav.fixed {
+position: fixed;
+top:0;
+}
+.navitem{
+float:center;
+display:inline-block;
+position:relative;
+/*background-color:#003c71;*/
+/*border-style:solid;*/
+/*border-width:2px;*/
+/*border-color:#FFFFFF;*/
+/*border-radius:5px;*/
+/*line-height:35px;*/
+line-height:50px;
+/*width:172px;*/
+/*margin-top:5px;*/
+/*margin-left:15px;*/
+/*margin-right:15px;*/
+width:16.405%;
+text-align:center;
+vertical-align:top;
+color:#FFFFFF;
+font-size:32px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+cursor:pointer;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+.navitem:hover
+{
+background-color:#003c71;
+}
+
+/*
+#navitem{
+float:center;
+display:inline-block;
+line-height:50px;
+width:202px;
+margin-left:0px;
+margin-right:0px;
+text-align:center;
+vertical-align:top;
+color:#FFFFFF;
+font-size:27px;
+font-family:Futura;
+}
+*/
+
+.vline
+{
+display:inline-block;
+border-left:solid thick;
+border-color:#FFFFFF;
+border-width:0px;
+width:0px;
+height:75px;
+vertical-align:center;
+}
+#contentbg
+{
+background-color:#002e5d;
+}
+#content{
+position:relative;
+z-index:0;
+background-color:#F8F8FF;
+float:center;
+border-style:solid;
+background-color:
+border-color:#000000;
+border-width:4px;
+margin-left:72px;
+margin-right:72px;
+margin-bottom:24px;
+margin-top:0;
+height:auto;
+padding-bottom:24px;
+padding-left:0px;
+box-shadow: 5px 5px 5px #000000;
+}
+#contentitem{
+margin-top:24px;
+margin-left:12px;
+margin-right:12px;
+overflow:auto;
+}
+#contentheader{
+font-size:40px;
+font-family: 'Montserrat Alternates', sans-serif;
+color: #00162f;
+/*border-bottom-style:solid;*/
+border-left-style: solid;
+border-color:#00162f;
+padding-left:10px;
+}
+#contenttext{
+margin-top:12px;
+margin-left:48px;
+margin-right:48px;
+color:#000008;
+font-family:'Thonburi';
+}
+#showblockdark{
+background-color:#C6C6CC;
+line-height:30px;
+vertical-align:middle;
+border-collapse:collapse;
+}
+#showblocklight{
+background-color:#dfdfe5;
+line-height:30px;
+vertical-align:middle;
+border-collapse:collapse;
+}
+#showdate{
+padding:12px;
+width:200px;
+font-family: 'Ubuntu', sans-serif;
+font-size:25px;
+}
+#showtitle{
+font-family: 'Ubuntu', sans-serif;
+font-size:25px;
+width:500px;
+}
+#showlocation{
+font-family: 'Ubuntu', sans-serif;
+font-size:17px;
+width:500px;
+}
+.member{
+font-family: 'Ubuntu', sans-serif;
+font-size:30px;
+padding:5px;
+border-bottom-style:solid;
+border-width:4px;
+margin:20px;
+position:relative;
+cursor:pointer;
+}
+.member:hover{
+color:#003c71;
+}
+.alumni{
+font-family: 'Ubuntu', sans-serif;
+font-size:30px;
+padding:5px;
+border-bottom-style:solid;
+border-width:4px;
+margin:20px;
+position:relative;
+}
+#instrument{
+background-color:#F8F8FF;
+font-size:20px;
+font-style:italic;
+width:100px;
+padding-left:10px;
+position:absolute;
+bottom:-12.5px;
+right:0px;
+}
+#biobox{
+border-style:solid;
+border-width:2px;
+padding:15px;
+height:auto;
+overflow:auto;
+position:relative;
+z-index:2;
+margin-right:24px;
+width:500px;
+background-color:#F8F8FF;
+box-shadow: 10px 10px 20px #000000;
+}
+#biobox.fixed {
+position: fixed;
+top:80px;
+right:82px;
+
+}
+#bioboxq{
+font-family: 'Cuprum', 
+sans-serif;font-size:20px;
+}
+#bioboxa{
+font-family: 'Ubuntu';
+font-size:18px;
+color: #00162f;
+}
+#name{
+font-size:25px;
+font-family: 'Ubuntu';
+padding:5px;
+}
