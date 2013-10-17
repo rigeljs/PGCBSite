@@ -55,6 +55,11 @@ font-size:32px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 cursor:pointer;
 }
+.social{
+display:inline-block;
+float:right;
+padding:15px;
+}
 .stretch {
     width: 100%;
     display: inline-block;
